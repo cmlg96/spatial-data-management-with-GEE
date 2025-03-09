@@ -172,6 +172,8 @@ En esta parte se cargaron los límites de las cuencas hidrográficas de los EE.U
 En esta parte, se cargaron los límites de los condados de <strong>Utah</strong> y las fronteras del estado, utilizando los conjuntos de datos de <strong>TIGER</strong>. Luego, se filtraron las cuencas hidrográficas que intersectan con el estado y se visualizó este conjunto de datos en un mapa. Se añadió un estilo diferenciando las cuencas hidrográficas y las fronteras estatales con colores específicos para facilitar su identificación visual.
 </p>
 
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_2_.JPG)
+
 #### Parte 3: Análisis y Visualización del Modelo Digital de Elevación (DEM) en la Cuenca Hidrográfica de Utah  
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Generar un análisis del Modelo Digital de Elevación (DEM) para un área específica de Utah y visualizar los datos de elevación sobre las cuencas hidrográficas.
@@ -181,6 +183,8 @@ En esta parte, se cargaron los límites de los condados de <strong>Utah</strong>
 <strong>Descripción</strong>:  
 Se cargó el <strong>DEM (Modelo Digital de Elevación)</strong> de 10 metros de resolución proporcionado por <strong>USGS</strong> y se recortó a la cuenca hidrográfica de Utah previamente seleccionada. Los datos de elevación fueron visualizados con una paleta de colores que representa diferentes niveles de altitud, lo que permitió observar el relieve de la región y analizar la topografía de la zona.
 </p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_3_.JPG)
 
 #### Parte 4: Cambio en la Cobertura de Suelo entre 2001 y 2019 en Utah  
 <p style="font-size: larger;">
@@ -192,6 +196,25 @@ Se cargó el <strong>DEM (Modelo Digital de Elevación)</strong> de 10 metros de
 Se utilizaron las imágenes del <strong>NLCD</strong> de 2001 y 2019 para visualizar los cambios en el uso del suelo en Utah. Para facilitar la comparación, se empleó una visualización en panel dividido que muestra las imágenes de ambos años, permitiendo observar las diferencias en la cobertura de suelo. Además, se añadió una leyenda para identificar los tipos de cobertura de suelo y se usaron colores específicos para diferenciar las categorías.
 </p>
 
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_4_.JPG)
+
+---
+#### Parte 5: Localización de Restaurantes en Salt Lake City usando OSM y Geemap
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Utilizar las herramientas `osmnx` y `geemap` para extraer y visualizar los restaurantes de Salt Lake City a partir de datos de OpenStreetMap (OSM). El objetivo es demostrar cómo geolocalizar puntos de interés dentro de una área específica utilizando datos geoespaciales y presentarlos en un mapa interactivo.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>:  
+Esta práctica se enfoca en la obtención de datos geoespaciales sobre restaurantes en Salt Lake City mediante la librería 'osmnx', que permite acceder fácilmente a la base de datos de OpenStreetMap. En primer lugar, se geocodifica la ciudad utilizando 'ox.geocode_to_gdf' para obtener las geometrías de Salt Lake City en formato GeoDataFrame. Luego, los datos del GeoDataFrame se convierten a un formato compatible con Google Earth Engine (EE) para su visualización en un mapa interactivo con `geemap`.
+
+Posteriormente, se filtran los datos de OSM para obtener únicamente los restaurantes dentro de los límites de Salt Lake City, utilizando la etiqueta 'amenity=restaurant'. Los datos obtenidos se procesan para garantizar que las geometrías sean puntos, utilizando la función `handle_geometry` para convertir cualquier geometría que no sea un punto (como polígonos) en su respectivo punto central.
+
+Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Salt Lake City, donde se añaden como puntos de color rojo. Este ejercicio demuestra cómo integrar datos geoespaciales de diferentes fuentes, como OSM y Google Earth Engine, para realizar análisis espaciales y crear visualizaciones interactivas en Python.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_5_.JPG)
 ---
 
 ## 🎯 Objetivo del repositorio
