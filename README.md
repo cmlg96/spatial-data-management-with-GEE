@@ -32,7 +32,7 @@ Mi objetivo es compartir estas prácticas para ayudar a quienes quieran empezar 
 <strong>Resultado</strong>: Generación de un mapa interactivo con los elementos mencionados.
 </p>
 
-![Texto alternativo](C:\VSC\personal\imagenes\)
+![Laboratorio 1!](lab_01.JPG)
 
 ---
 
