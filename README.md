@@ -32,8 +32,7 @@ Mi objetivo es compartir estas prácticas para ayudar a quienes quieran empezar 
 <strong>Resultado</strong>: Generación de un mapa interactivo con los elementos mencionados.
 </p>
 
-![Laboratorio 1!](lab_01.JPG)
-
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_01.JPG)
 ---
 
 ### Práctica 2: Creación de un Mapa Interactivo con geemap, Personalización de Texto, Logo y Datos GeoJSON 📊
