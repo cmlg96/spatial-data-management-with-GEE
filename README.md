@@ -20,16 +20,19 @@ Mi objetivo es compartir estas prácticas para ayudar a quienes quieran empezar 
 
 <p style="font-size: larger;">
 <strong>Elementos añadidos</strong>:
+</p>
+
 - Mapa interactivo centrado en una ubicación específica.
 - Mapa base en estilo "CartoDB.DarkMatter".
 - Texto personalizado en el mapa para mostrar la autoridad o etiquetas.
 - Logo con imagen personalizada en la esquina inferior derecha.
 - Datos GeoJSON: Carga de un archivo GeoJSON de Europa, con un estilo de perfilado azul y relleno transparente.
-</p>
 
 <p style="font-size: larger;">
 <strong>Resultado</strong>: Generación de un mapa interactivo con los elementos mencionados.
 </p>
+
+![Texto alternativo](C:\VSC\personal\imagenes\)
 
 ---
 
@@ -41,12 +44,13 @@ Mi objetivo es compartir estas prácticas para ayudar a quienes quieran empezar 
 
 <p style="font-size: larger;">
 <strong>Elementos añadidos</strong>:
+</p>
+
 - Mapa interactivo centrado en una ubicación específica.
 - Mapa base en estilo "CartoDB.DarkMatter".
 - Texto personalizado en el mapa para mostrar la autoridad o etiquetas.
 - Logo con imagen personalizada en la esquina inferior derecha.
 - Datos GeoJSON: Carga de un archivo GeoJSON de Europa, con un estilo de perfilado azul y relleno transparente.
-</p>
 
 <p style="font-size: larger;">
 <strong>Resultado</strong>: Generación de un mapa interactivo con los elementos anteriores, incluyendo el estilo de los datos geoespaciales.
@@ -81,10 +85,11 @@ Esta práctica mostró cómo geemap y Google Earth Engine (GEE) pueden ser herra
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>:
+</p>
+
 - Aprender a trabajar con geemap y Google Earth Engine para acceder a diferentes tipos de datos geoespaciales.
 - Realizar análisis y visualizaciones de imágenes satelitales como las de Landsat-9, Sentinel-2 y NAIP para el estudio de áreas específicas, como <strong>Knox County</strong>, Tennessee.
 - Filtrar, procesar y representar datos geográficos (como límites administrativos) y aplicar análisis de cobertura terrestre con imágenes satelitales.
-</p>
 
 #### Parte 1: Filtrado de Datos y Creación de DataFrame  
 <p style="font-size: larger;">
@@ -138,15 +143,15 @@ Se cargaron las imágenes de <strong>NAIP</strong> para <strong>Knox County</str
 
 ---
 
-### Práctica 5: Visualización y Análisis Geoespacial utilizando Geemap y Google Earth Engine
+### Práctica 5: Manipulación de Cuencas Hidrográficas (USGS WBD), Modelos Digitales de Elevación (DEM), Análisis de Cobertura del Suelo (NLCD) y Visualización de Datos de OpenStreetMap con Geemap
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>:
-- Familiarización con las librerías <strong>geemap</strong> y <strong>Google Earth Engine (GEE)</strong> para análisis geoespaciales y visualización de datos geográficos.
+</p>
+
 - Explorar conjuntos de datos geoespaciales, como cuencas hidrográficas, modelos digitales de elevación (DEM), y cambios en la cobertura del suelo.
 - Localización de restaurantes en Salt Lake City utilizando datos de <strong>OpenStreetMap</strong>.
 - Uso de herramientas de visualización y procesamiento de datos para entender los procesos naturales y humanos.
-</p>
 
 #### Parte 1: Límites de Cuencas Hidrográficas en EE.UU.  
 <p style="font-size: larger;">
@@ -201,21 +206,23 @@ Estas prácticas son <strong>totalmente personalizadas</strong> y las he subido 
 ## 🌟 ¿Por qué estas prácticas?
 
 <p style="font-size: larger;">
+</p>
+
 - <strong>Aprendizaje práctico</strong>: Cada práctica está diseñada para aplicar conceptos teóricos en situaciones reales. 🧠
 - <strong>Personalización</strong>: Los ejercicios están adaptados a mis necesidades, pero son lo suficientemente flexibles para que otros los utilicen. 🛠️
 - <strong>Comunidad</strong>: Quiero contribuir a la comunidad de GEE y Python compartiendo lo que he aprendido. 🤝
-</p>
 
 ---
 
 ## 🚀 ¿Cómo usar este repositorio?
 
 <p style="font-size: larger;">
+</p>
+
 1. Clona el repositorio en tu máquina local.
 2. Instala las dependencias necesarias (como <code>geemap</code> y <code>earthengine-api</code>).
 3. Explora las prácticas en orden o salta directamente a la que más te interese.
 4. ¡Experimenta y modifica los códigos para adaptarlos a tus necesidades! 💻
-</p>
 
 ---
 
