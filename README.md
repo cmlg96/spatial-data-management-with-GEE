@@ -68,6 +68,8 @@ Mi objetivo es compartir estas prácticas para ayudar a quienes quieran empezar 
 Se seleccionó un Modelo Digital de Elevación (DEM) de los disponibles en Earth Engine para generar un DSM de una región de interés. Este modelo se visualizó utilizando una paleta de colores que representaba las diferentes elevaciones del terreno, ayudando a obtener una representación detallada del relieve geográfico de la zona seleccionada.
 </p>
 
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_03_A.JPG)
+
 #### Parte 2: Cálculo y Análisis del Índice de Vegetación Quemada Normalizado (NBR)  
 <p style="font-size: larger;">
 A partir de imágenes satelitales post-incendio de Sentinel-2, se calculó el Índice de Vegetación Quemada Normalizado (NBR), lo que permitió evaluar la severidad de los incendios y la extensión de las áreas afectadas. El NBR se visualizó mediante una paleta de colores para facilitar la identificación de las zonas impactadas por el fuego.
@@ -77,6 +79,8 @@ A partir de imágenes satelitales post-incendio de Sentinel-2, se calculó el Í
 <strong>Conclusión</strong>:  
 Esta práctica mostró cómo geemap y Google Earth Engine (GEE) pueden ser herramientas poderosas para realizar análisis geoespaciales avanzados. A través del uso de datasets del Earth Engine Data Catalog, los usuarios pueden obtener, procesar y visualizar datos de manera eficiente, lo que abre un abanico de posibilidades para la investigación y monitoreo de fenómenos naturales como la topografía del terreno y los efectos de los incendios.
 </p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_03_B.JPG)
 
 ---
 
@@ -100,6 +104,8 @@ Esta práctica mostró cómo geemap y Google Earth Engine (GEE) pueden ser herra
 Se cargaron los límites de condados de EE.UU. desde Earth Engine, filtrando por el nombre de "Knox" y convirtiendo el conjunto filtrado en un DataFrame. Este proceso facilita la visualización y manipulación de los datos tabulares.
 </p>
 
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_04_A.JPG)
+
 #### Parte 2: Visualización del Límite Geográfico de Knox County  
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Filtrar Knox County en Tennessee y visualizar sus límites con un borde rojo y sin relleno, en un mapa interactivo.
@@ -109,6 +115,8 @@ Se cargaron los límites de condados de EE.UU. desde Earth Engine, filtrando por
 <strong>Descripción</strong>:  
 Se cargó y filtró la colección de condados de EE.UU. para identificar el condado de <strong>Knox</strong>, y se visualizó en un mapa interactivo. Se agregó un texto para identificar al creador y personalizar la presentación.
 </p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_04_B.JPG)
 
 #### Parte 3: Visualización de Imágenes de Landsat-9 para el condado de Knox  
 <p style="font-size: larger;">
@@ -120,6 +128,8 @@ Se cargó y filtró la colección de condados de EE.UU. para identificar el cond
 Se filtraron las imágenes de Landsat-9 para <strong>Knox County</strong> entre junio y diciembre de 2023. Se aplicó un proceso de enmascarado de nubes, y se utilizó una combinación de bandas <strong>7-6-4</strong> para crear una visualización combinada en colores naturales con el objetivo de mostrar la cobertura terrestre.
 </p>
 
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_04_C.JPG)
+
 #### Parte 4: Visualización de Imágenes de Sentinel-2 con Combinación de Bandas Infrarrojas  
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Filtrar y procesar imágenes de Sentinel-2, crear un mosaico de las imágenes disponibles y visualizarlas utilizando la combinación de bandas <strong>Color Infrarrojo (5-4-3)</strong>.
@@ -130,6 +140,8 @@ Se filtraron las imágenes de Landsat-9 para <strong>Knox County</strong> entre 
 Se filtra el conjunto de imágenes de Sentinel-2 para obtener las imágenes más claras de <strong>Knox County</strong>, creando un mosaico de la combinación de bandas <strong>5-4-3</strong>. Esta combinación resalta la vegetación y la cobertura del suelo en colores infrarrojos.
 </p>
 
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_04_D.JPG)
+
 #### Parte 5: Visualización de Imágenes de NAIP con Combinación de Bandas NIR, Rojo y Verde  
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Utilice las imágenes de <strong>NAIP</strong> para generar una visualización con la combinación de bandas <strong>Color Infrarrojo (NIR, Rojo, Verde)</strong>.
@@ -139,6 +151,8 @@ Se filtra el conjunto de imágenes de Sentinel-2 para obtener las imágenes más
 <strong>Descripción</strong>:  
 Se cargaron las imágenes de <strong>NAIP</strong> para <strong>Knox County</strong> y se creó un mosaico con las imágenes disponibles, visualizando la imagen resultante utilizando la combinación de bandas <strong>NIR, R, G</strong>, lo que permite visualizar la vegetación y la calidad de la cobertura terrestre.
 </p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_04_E.JPG)
 
 ---
 
