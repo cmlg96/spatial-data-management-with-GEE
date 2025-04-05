@@ -259,7 +259,7 @@ Esta práctica permite realizar un análisis de imágenes satelitales del condad
 Esta sección carga una imagen de Landsat 7 del periodo 1999-2003 y la visualiza utilizando un esquema de color específico (bandas B4, B3 y B2). Se añade una cuadrícula tipo fishnet sobre la imagen, con una resolución ajustable, que sirve como referencia para analizar las imágenes de satélite y hacer análisis espaciales detallados.
 </p>
 
-![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_2_.JPG)
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_1.JPG)
 
 ---
 
@@ -274,7 +274,7 @@ Esta sección carga una imagen de Landsat 7 del periodo 1999-2003 y la visualiza
 En esta parte, se filtran las imágenes de Landsat 8 por el área de Claiborne County entre los años 2017 y 2023, aplicando una máscara para nubes. Se utiliza el método de mediana para generar una imagen compuesta que reduce las nubes y proporciona una visión más clara de los cambios en la superficie terrestre a lo largo del tiempo.
 </p>
 
-![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_2_.JPG)
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_2.JPG)
 
 ---
 
@@ -289,7 +289,7 @@ En esta parte, se filtran las imágenes de Landsat 8 por el área de Claiborne C
 Se utilizan imágenes de Sentinel-2 para calcular el NDVI en el condado de Claiborne durante los meses de junio a agosto de los años 2018 a 2023. El NDVI se utiliza para analizar la salud y la cobertura vegetal, donde los valores cercanos a 1 indican vegetación densa y los valores cercanos a -1 indican áreas sin vegetación.
 </p>
 
-![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_3_.JPG)
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_3.JPG)
 
 ---
 
@@ -304,7 +304,7 @@ Se utilizan imágenes de Sentinel-2 para calcular el NDVI en el condado de Claib
 En esta sección se procesan imágenes de NAIP utilizando las bandas de infrarrojo cercano (NIR), rojo (R) y verde (G) para generar imágenes en falso color que ayudan a identificar cambios en la vegetación y el uso del suelo. Se visualizan imágenes anuales entre 2010 y 2023 para observar las tendencias a largo plazo en el área.
 </p>
 
-![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_4_.JPG)
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_4.JPG)
 
 ---
 
