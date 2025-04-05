@@ -230,7 +230,95 @@ Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Sa
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_5_.JPG)
 ---
+### Práctica 7: Análisis de Imágenes Satelitales para Claiborne County, Tennessee 📡
 
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Realizar un análisis geoespacial completo utilizando Google Earth Engine y geemap para visualizar, descargar y analizar imágenes satelitales de diferentes fuentes, como Landsat 7, Landsat 8, Sentinel-2 y NAIP, para el condado de Claiborne, Tennessee.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: 
+Esta práctica permite realizar un análisis de imágenes satelitales del condado de Claiborne utilizando distintas fuentes de datos. Se carga y visualiza una imagen de Landsat 7, sobre la cual se aplican parámetros de visualización y se sobrepone una cuadrícula para facilitar la interpretación. Además, se utiliza Landsat 8 para un análisis temporal de las imágenes de 2017 a 2023, aplicando una máscara para las nubes. También se calculan y visualizan índices como el NDVI a partir de imágenes de Sentinel-2, específicamente entre los meses de junio a agosto de cada año, y se trabaja con imágenes de NAIP en color falso para observar cambios en el uso de la tierra y vegetación de 2010 a 2023. Finalmente, se descarga tanto la información geoespacial como las imágenes procesadas para su posterior análisis y uso en SIG.
+</p>
+
+<p style="font-size: larger;">
+<strong>Resultado</strong>: Generación de un conjunto de imágenes satelitales procesadas, análisis geoespacial interactivo y descargas de imágenes de alta calidad de diferentes fuentes para el análisis temporal y espacial en el condado de Claiborne.
+</p>
+
+---
+
+### Parte 1: Carga y Visualización de Imágenes de Landsat 7 con Cuadrícula Fishnet 🛰️
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Cargar una imagen de Landsat 7, aplicar parámetros de visualización y superponer una cuadrícula tipo fishnet para analizar la región geográfica seleccionada.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: 
+Esta sección carga una imagen de Landsat 7 del periodo 1999-2003 y la visualiza utilizando un esquema de color específico (bandas B4, B3 y B2). Se añade una cuadrícula tipo fishnet sobre la imagen, con una resolución ajustable, que sirve como referencia para analizar las imágenes de satélite y hacer análisis espaciales detallados.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_1_.JPG)
+
+---
+
+### Parte 2: Análisis Temporal con Imágenes de Landsat 8 para Claiborne County 🗓️
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Filtrar y analizar imágenes de Landsat 8 para el condado de Claiborne entre 2017 y 2023, aplicando una máscara de nubes y visualizando el cambio temporal.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: 
+En esta parte, se filtran las imágenes de Landsat 8 por el área de Claiborne County entre los años 2017 y 2023, aplicando una máscara para nubes. Se utiliza el método de mediana para generar una imagen compuesta que reduce las nubes y proporciona una visión más clara de los cambios en la superficie terrestre a lo largo del tiempo.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_2_.JPG)
+
+---
+
+### Parte 3: Cálculo y Visualización del NDVI con Imágenes de Sentinel-2 🌱
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Calcular el Índice de Vegetación de Diferencia Normalizada (NDVI) utilizando imágenes de Sentinel-2 durante los meses de verano entre 2018 y 2023.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: 
+Se utilizan imágenes de Sentinel-2 para calcular el NDVI en el condado de Claiborne durante los meses de junio a agosto de los años 2018 a 2023. El NDVI se utiliza para analizar la salud y la cobertura vegetal, donde los valores cercanos a 1 indican vegetación densa y los valores cercanos a -1 indican áreas sin vegetación.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_3_.JPG)
+
+---
+
+### Parte 4: Visualización de Imágenes NAIP en Color Falso (NIR-R-G) de 2010 a 2023 🌍
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Visualizar las imágenes anuales de NAIP en el condado de Claiborne entre 2010 y 2023 utilizando una combinación de bandas en falso color (NIR-R-G).
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: 
+En esta sección se procesan imágenes de NAIP utilizando las bandas de infrarrojo cercano (NIR), rojo (R) y verde (G) para generar imágenes en falso color que ayudan a identificar cambios en la vegetación y el uso del suelo. Se visualizan imágenes anuales entre 2010 y 2023 para observar las tendencias a largo plazo en el área.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_4_.JPG)
+
+---
+
+### Parte 5: Descarga de Límites Geográficos de Claiborne County como Shapefile y GeoJSON 🗺️
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Descargar los límites geográficos del condado de Claiborne en formato Shapefile y GeoJSON para su uso en sistemas de información geográfica (SIG).
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: 
+Se descarga el límite geográfico del condado de Claiborne a partir de la base de datos de condados de EE. UU. y se guarda en formatos Shapefile y GeoJSON, que son ampliamente utilizados en SIG para realizar análisis espaciales detallados.
+</p>
+
+---
 ## 🎯 Objetivo del repositorio
 
 <p style="font-size: larger;">
