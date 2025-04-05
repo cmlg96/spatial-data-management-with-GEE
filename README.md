@@ -231,6 +231,84 @@ Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Sa
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_5_.JPG)
 
 ---
+### Práctica 6: Visualización y Análisis de Datos Geoespaciales con Google Earth Engine 🌍
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Usar Google Earth Engine (GEE) junto con la biblioteca geemap para cargar, procesar y visualizar distintos conjuntos de datos geoespaciales en un cuaderno de Jupyter. Esta práctica incluye el análisis de datos climáticos de NOAA, imágenes satelitales de Landsat y Sentinel-2, y análisis de datos agrícolas con el conjunto de datos de USDA NASS.
+</p>
+
+---
+
+### Parte 1: Visualización de Datos Climáticos de NOAA 📊
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Cargar los datos de temperatura a 2 metros del modelo de pronóstico GFS de NOAA y visualizar las variaciones globales de temperatura en un mapa interactivo.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: En esta parte, se extrae la capa de temperatura a 2 metros del conjunto de datos NOAA GFS, utilizando las imágenes de pronóstico de este sistema global de modelado. Se emplean parámetros de visualización como una paleta de colores y valores mínimos y máximos para resaltar las zonas de diferente temperatura en el mapa. La adición de un control de color y una barra de color proporciona una referencia visual precisa, facilitando la interpretación de los datos climáticos globales en tiempo real.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_06_1.JPG)
+
+---
+
+### Parte 2: Análisis de Imágenes de Landsat 7 🛰️
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Cargar y visualizar una imagen compuesta de Landsat 7 entre 1999 y 2003 utilizando diferentes combinaciones de bandas para el análisis de características geográficas.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: En esta parte, se utiliza una imagen compuesta de Landsat 7 (1999-2003) para evaluar diferentes características de la superficie terrestre a través de distintas combinaciones de bandas. Se emplean configuraciones específicas de visualización, como color natural, infrarrojo cercano y color falso para analizar áreas de vegetación, geología y humedad del suelo. Las imágenes se visualizan en un formato de mapa dividido para comparar los efectos de las diferentes combinaciones de bandas sobre la misma área geográfica, permitiendo una interpretación espacial detallada.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_06_2.JPG)
+
+---
+
+### Parte 3: Análisis Temporal con USDA NASS Cropland Data Layers 🌾
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Visualizar los cambios en el uso del suelo agrícola desde 2010 hasta 2022 usando las capas de datos del USDA NASS y analizar la variabilidad temporal mediante un inspector de series temporales.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: Aquí se trabaja con el conjunto de datos de la capa de uso agrícola del USDA NASS, que proporciona información anual sobre el uso de tierras en los EE. UU. desde 2010 hasta 2022. Se utiliza el inspector de series temporales para evaluar cómo ha cambiado el uso del suelo en una región específica, visualizando las diferentes clases de uso agrícola a lo largo del tiempo. Esta sección permite observar las variaciones en las zonas de cultivo y las transiciones entre diferentes tipos de uso del suelo mediante una comparación de capas de diferentes años.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_06_3.JPG)
+
+---
+
+### Parte 4: Análisis de Imágenes de Sentinel-2 en Knoxville, TN 🌍
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Filtrar y visualizar imágenes de Sentinel-2 para la ciudad de Knoxville, TN, con menos del 10% de cobertura nubosa para análisis temporal utilizando bandas NIR, Roja y Verde.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: En este paso se filtran imágenes de Sentinel-2 usando criterios espaciales y temporales para obtener solo aquellas con menos del 10% de nubosidad, enfocándose en el área de Knoxville, TN. Las imágenes seleccionadas se visualizan utilizando bandas del infrarrojo cercano (NIR), rojo y verde, lo que permite realizar análisis sobre la vegetación, monitorización del terreno y salud de las áreas verdes. La incorporación de un control deslizante temporal permite explorar cómo ha cambiado la ciudad durante un período de tiempo determinado, lo que facilita el análisis de tendencias a lo largo de los años.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_06_4.JPG)
+
+---
+
+### Parte 5: Comparación de Cobertura del Suelo con ESA World Cover y Landsat 🌱
+
+<p style="font-size: larger;">
+<strong>Objetivo</strong>: Comparar las imágenes de cobertura del suelo de ESA World Cover con las de Landsat, utilizando un mapa dividido para observar diferencias en el uso del suelo y la vegetación.
+</p>
+
+<p style="font-size: larger;">
+<strong>Descripción</strong>: En esta sección se comparan dos conjuntos de datos: ESA World Cover y Landsat, para analizar la cobertura del suelo en EE. UU. Se recortan ambos conjuntos de imágenes a las fronteras de los estados de EE. UU. para una visualización más precisa. Se utilizan dos mapas divididos para mostrar simultáneamente ambas coberturas y permitir la comparación directa de las diferencias en la clasificación del suelo. La adición de una leyenda para ESA World Cover facilita la interpretación de las clases de cobertura del suelo. Además, se agregan los límites geográficos de los estados de EE. UU. para mejorar el contexto geoespacial.
+</p>
+
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_06_5.JPG)
+
+---
+
 ### Práctica 7: Análisis de Imágenes Satelitales para Claiborne County, Tennessee 📡
 
 <p style="font-size: larger;">
