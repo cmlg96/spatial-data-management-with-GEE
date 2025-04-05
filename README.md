@@ -33,6 +33,7 @@ Mi objetivo es compartir estas prácticas para ayudar a quienes quieran empezar 
 </p>
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_01.JPG)
+
 ---
 
 ### Práctica 2: Creación de un Mapa Interactivo con geemap, Personalización de Texto, Logo y Datos GeoJSON 📊
@@ -63,12 +64,16 @@ Mi objetivo es compartir estas prácticas para ayudar a quienes quieran empezar 
 <strong>Objetivo</strong>: Familiarizarse con el uso de geemap y Google Earth Engine (GEE) para trabajar con datasets del Earth Engine Data Catalog, específicamente en la visualización de datos geoespaciales y el análisis de fenómenos como la elevación del terreno y el impacto de incendios mediante el Índice de Vegetación Quemada Normalizado (NBR) en imágenes satelitales post-incendio.
 </p>
 
+---
+
 #### Parte 1: Visualización de un Modelo Digital de Superficie (DSM)  
 <p style="font-size: larger;">
 Se seleccionó un Modelo Digital de Elevación (DEM) de los disponibles en Earth Engine para generar un DSM de una región de interés. Este modelo se visualizó utilizando una paleta de colores que representaba las diferentes elevaciones del terreno, ayudando a obtener una representación detallada del relieve geográfico de la zona seleccionada.
 </p>
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_03_A.JPG)
+
+---
 
 #### Parte 2: Cálculo y Análisis del Índice de Vegetación Quemada Normalizado (NBR)  
 <p style="font-size: larger;">
@@ -94,6 +99,8 @@ Esta práctica mostró cómo geemap y Google Earth Engine (GEE) pueden ser herra
 - Realizar análisis y visualizaciones de imágenes satelitales como las de Landsat-9, Sentinel-2 y NAIP para el estudio de áreas específicas, como <strong>Knox County</strong>, Tennessee.
 - Filtrar, procesar y representar datos geográficos (como límites administrativos) y aplicar análisis de cobertura terrestre con imágenes satelitales.
 
+---
+
 #### Parte 1: Filtrado de Datos y Creación de DataFrame  
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Filtrar una colección de datos geoespaciales para encontrar registros específicos (en este caso, "Knox"), convertirlos en un DataFrame y agregar una columna numerada.
@@ -105,6 +112,8 @@ Se cargaron los límites de condados de EE.UU. desde Earth Engine, filtrando por
 </p>
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_04_A.JPG)
+
+---
 
 #### Parte 2: Visualización del Límite Geográfico de Knox County  
 <p style="font-size: larger;">
@@ -118,6 +127,8 @@ Se cargó y filtró la colección de condados de EE.UU. para identificar el cond
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_04_B.JPG)
 
+---
+
 #### Parte 3: Visualización de Imágenes de Landsat-9 para el condado de Knox  
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Cargar imágenes Landsat-9, aplicar una máscara de nubes, seleccionar la imagen con menor cobertura nubosa y visualizarla en un mapa.
@@ -130,6 +141,8 @@ Se filtraron las imágenes de Landsat-9 para <strong>Knox County</strong> entre 
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_04_C.JPG)
 
+---
+
 #### Parte 4: Visualización de Imágenes de Sentinel-2 con Combinación de Bandas Infrarrojas  
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Filtrar y procesar imágenes de Sentinel-2, crear un mosaico de las imágenes disponibles y visualizarlas utilizando la combinación de bandas <strong>Color Infrarrojo (5-4-3)</strong>.
@@ -141,6 +154,8 @@ Se filtra el conjunto de imágenes de Sentinel-2 para obtener las imágenes más
 </p>
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_04_D.JPG)
+
+---
 
 #### Parte 5: Visualización de Imágenes de NAIP con Combinación de Bandas NIR, Rojo y Verde  
 <p style="font-size: larger;">
@@ -166,6 +181,8 @@ Se cargaron las imágenes de <strong>NAIP</strong> para <strong>Knox County</str
 - Localización de restaurantes en Salt Lake City utilizando datos de <strong>OpenStreetMap</strong>.
 - Uso de herramientas de visualización y procesamiento de datos para entender los procesos naturales y humanos.
 
+---
+
 #### Parte 1: Límites de Cuencas Hidrográficas en EE.UU.  
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Visualizar los límites de las cuencas hidrográficas en los Estados Unidos utilizando el <strong>USGS Watershed Boundary Dataset (WBD)</strong>.
@@ -175,6 +192,8 @@ Se cargaron las imágenes de <strong>NAIP</strong> para <strong>Knox County</str
 <strong>Descripción</strong>:  
 En esta parte se cargaron los límites de las cuencas hidrográficas de los EE.UU. a partir del conjunto de datos <strong>USGS Watershed Boundary Dataset</strong>. Las cuencas hidrográficas, o áreas de drenaje, son regiones donde el agua fluye hacia un mismo punto de salida, como un río o lago. Se aplicó un estilo para representar estas cuencas en un mapa interactivo, con un borde azul y sin relleno, permitiendo observar las zonas que definen el drenaje a nivel nacional.
 </p>
+
+---
 
 #### Parte 2: Intersección de Cuencas Hidrográficas con el Estado de Utah  
 <p style="font-size: larger;">
@@ -188,6 +207,8 @@ En esta parte, se cargaron los límites de los condados de <strong>Utah</strong>
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_2_.JPG)
 
+---
+
 #### Parte 3: Análisis y Visualización del Modelo Digital de Elevación (DEM) en la Cuenca Hidrográfica de Utah  
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Generar un análisis del Modelo Digital de Elevación (DEM) para un área específica de Utah y visualizar los datos de elevación sobre las cuencas hidrográficas.
@@ -199,6 +220,8 @@ Se cargó el <strong>DEM (Modelo Digital de Elevación)</strong> de 10 metros de
 </p>
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_3_.JPG)
+
+---
 
 #### Parte 4: Cambio en la Cobertura de Suelo entre 2001 y 2019 en Utah  
 <p style="font-size: larger;">
@@ -213,6 +236,7 @@ Se utilizaron las imágenes del <strong>NLCD</strong> de 2001 y 2019 para visual
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_4_.JPG)
 
 ---
+
 #### Parte 5: Localización de Restaurantes en Salt Lake City usando OSM y Geemap
 
 <p style="font-size: larger;">
@@ -231,6 +255,7 @@ Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Sa
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_5_.JPG)
 
 ---
+
 ### Práctica 6: Visualización y Análisis de Datos Geoespaciales con Google Earth Engine 🌍
 
 <p style="font-size: larger;">
@@ -239,7 +264,7 @@ Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Sa
 
 ---
 
-### Parte 1: Visualización de Datos Climáticos de NOAA 📊
+#### Parte 1: Visualización de Datos Climáticos de NOAA 📊
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Cargar los datos de temperatura a 2 metros del modelo de pronóstico GFS de NOAA y visualizar las variaciones globales de temperatura en un mapa interactivo.
@@ -253,7 +278,7 @@ Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Sa
 
 ---
 
-### Parte 2: Análisis de Imágenes de Landsat 7 🛰️
+#### Parte 2: Análisis de Imágenes de Landsat 7 🛰️
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Cargar y visualizar una imagen compuesta de Landsat 7 entre 1999 y 2003 utilizando diferentes combinaciones de bandas para el análisis de características geográficas.
@@ -267,7 +292,7 @@ Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Sa
 
 ---
 
-### Parte 3: Análisis Temporal con USDA NASS Cropland Data Layers 🌾
+#### Parte 3: Análisis Temporal con USDA NASS Cropland Data Layers 🌾
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Visualizar los cambios en el uso del suelo agrícola desde 2010 hasta 2022 usando las capas de datos del USDA NASS y analizar la variabilidad temporal mediante un inspector de series temporales.
@@ -281,7 +306,7 @@ Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Sa
 
 ---
 
-### Parte 4: Análisis de Imágenes de Sentinel-2 en Knoxville, TN 🌍
+#### Parte 4: Análisis de Imágenes de Sentinel-2 en Knoxville, TN 🌍
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Filtrar y visualizar imágenes de Sentinel-2 para la ciudad de Knoxville, TN, con menos del 10% de cobertura nubosa para análisis temporal utilizando bandas NIR, Roja y Verde.
@@ -295,7 +320,7 @@ Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Sa
 
 ---
 
-### Parte 5: Comparación de Cobertura del Suelo con ESA World Cover y Landsat 🌱
+#### Parte 5: Comparación de Cobertura del Suelo con ESA World Cover y Landsat 🌱
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Comparar las imágenes de cobertura del suelo de ESA World Cover con las de Landsat, utilizando un mapa dividido para observar diferencias en el uso del suelo y la vegetación.
@@ -326,7 +351,7 @@ Esta práctica permite realizar un análisis de imágenes satelitales del condad
 
 ---
 
-### Parte 1: Carga y Visualización de Imágenes de Landsat 7 con Cuadrícula Fishnet 🛰️
+#### Parte 1: Carga y Visualización de Imágenes de Landsat 7 con Cuadrícula Fishnet 🛰️
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Cargar una imagen de Landsat 7, aplicar parámetros de visualización y superponer una cuadrícula tipo fishnet para analizar la región geográfica seleccionada.
@@ -341,7 +366,7 @@ Esta sección carga una imagen de Landsat 7 del periodo 1999-2003 y la visualiza
 
 ---
 
-### Parte 2: Análisis Temporal con Imágenes de Landsat 8 para Claiborne County 🗓️
+#### Parte 2: Análisis Temporal con Imágenes de Landsat 8 para Claiborne County 🗓️
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Filtrar y analizar imágenes de Landsat 8 para el condado de Claiborne entre 2017 y 2023, aplicando una máscara de nubes y visualizando el cambio temporal.
@@ -356,7 +381,7 @@ En esta parte, se filtran las imágenes de Landsat 8 por el área de Claiborne C
 
 ---
 
-### Parte 3: Cálculo y Visualización del NDVI con Imágenes de Sentinel-2 🌱
+#### Parte 3: Cálculo y Visualización del NDVI con Imágenes de Sentinel-2 🌱
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Calcular el Índice de Vegetación de Diferencia Normalizada (NDVI) utilizando imágenes de Sentinel-2 durante los meses de verano entre 2018 y 2023.
@@ -371,7 +396,7 @@ Se utilizan imágenes de Sentinel-2 para calcular el NDVI en el condado de Claib
 
 ---
 
-### Parte 4: Visualización de Imágenes NAIP en Color Falso (NIR-R-G) de 2010 a 2023 🌍
+#### Parte 4: Visualización de Imágenes NAIP en Color Falso (NIR-R-G) de 2010 a 2023 🌍
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Visualizar las imágenes anuales de NAIP en el condado de Claiborne entre 2010 y 2023 utilizando una combinación de bandas en falso color (NIR-R-G).
@@ -386,7 +411,7 @@ En esta sección se procesan imágenes de NAIP utilizando las bandas de infrarro
 
 ---
 
-### Parte 5: Descarga de Límites Geográficos de Claiborne County como Shapefile y GeoJSON 🗺️
+#### Parte 5: Descarga de Límites Geográficos de Claiborne County como Shapefile y GeoJSON 🗺️
 
 <p style="font-size: larger;">
 <strong>Objetivo</strong>: Descargar los límites geográficos del condado de Claiborne en formato Shapefile y GeoJSON para su uso en sistemas de información geográfica (SIG).
