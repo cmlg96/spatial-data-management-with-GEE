@@ -229,6 +229,7 @@ Finalmente, los restaurantes se visualizan en un mapa interactivo centrado en Sa
 </p>
 
 ![alt text](https://github.com/cmlg96/practice/blob/main/lab_05_5_.JPG)
+
 ---
 ### Práctica 7: Análisis de Imágenes Satelitales para Claiborne County, Tennessee 📡
 
@@ -258,7 +259,7 @@ Esta práctica permite realizar un análisis de imágenes satelitales del condad
 Esta sección carga una imagen de Landsat 7 del periodo 1999-2003 y la visualiza utilizando un esquema de color específico (bandas B4, B3 y B2). Se añade una cuadrícula tipo fishnet sobre la imagen, con una resolución ajustable, que sirve como referencia para analizar las imágenes de satélite y hacer análisis espaciales detallados.
 </p>
 
-![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_1_.JPG)
+![alt text](https://github.com/cmlg96/practice/blob/main/lab_07_2_.JPG)
 
 ---
 
